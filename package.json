@@ -1,0 +1,24 @@
+{
+  "name": "disbotunknown",
+  "version": "1.0.0",
+  "description": "This connecy two users anonymously in Discord via discordjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aBaldoqui/disbotunknown.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aBaldoqui/disbotunknown/issues"
+  },
+  "homepage": "https://github.com/aBaldoqui/disbotunknown#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3"
+  }
+}
