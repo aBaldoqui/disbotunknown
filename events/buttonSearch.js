@@ -37,10 +37,10 @@ module.exports = {
             user2.members.add(queue)
 
             firstchatmsg.components[0].components[0].data.custom_id = user2.id 
-            user1.send(firstchatmsg)
+            user1.send(firstchatmsg[0])
 
             firstchatmsg.components[0].components[0].data.custom_id = user1.id        
-            user2.send(firstchatmsg)
+            user2.send(firstchatmsg[0])
 
         } else {
             queue = interaction.user.id;
