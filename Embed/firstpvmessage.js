@@ -13,14 +13,8 @@ const initrow = new ActionRowBuilder()
             .setStyle(ButtonStyle.Primary),
     );
 
-
-
-
-
-
 module.exports =
 {
     embeds: [initMsg],
     components: [initrow]
 }
-
