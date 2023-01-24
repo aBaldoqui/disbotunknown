@@ -5,7 +5,7 @@ const initMsg = new EmbedBuilder()
     .setTitle('Você está agora conversando com uma pessoa aleatória, diga oi')
     .setDescription('Vocês dois falam a mesma lingua')
 
-const row = new ActionRowBuilder()
+const initrow = new ActionRowBuilder()
     .addComponents(
         new ButtonBuilder()
             .setCustomId(' ')
@@ -14,7 +14,13 @@ const row = new ActionRowBuilder()
     );
 
 
-module.exports = {
+
+
+
+
+module.exports =
+{
     embeds: [initMsg],
-    components: [row]
+    components: [initrow]
 }
+
